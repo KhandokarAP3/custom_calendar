@@ -1,0 +1,31 @@
+.divCustomCalendarRoot {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fc-daygrid-day-frame {
+    cursor: pointer;
+}
+.fc-daygrid-day-frame:hover {
+    background-color: #c3c3c3;
+}
+
+.fc-daygrid-day-events {
+    cursor: pointer;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+input[disabled], select[disabled], div[disabled] {
+    color: #333 !important;
+    background-color: #c3c3c3 !important;
+}
+.form-check-input:disabled~.form-check-label, .form-check-input[disabled]~.form-check-label {
+    color: #333 !important;
+    opacity: 1 !important;
+}
+.txtEventDesc {
+    min-height: 50px;;
+}
